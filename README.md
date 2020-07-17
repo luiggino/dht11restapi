@@ -1,5 +1,6 @@
 # Rest Api Dht11
 
+[![Build Status](https://travis-ci.com/luiggino/dht11restapi.svg?branch=master)](https://travis-ci.com/github/luiggino/dht11restapi)
 
 ![CircleCI branch](https://img.shields.io/circleci/project/github/RedSparr0w/node-csgo-parser/master.svg?style=flat-square)
 ![npm](https://img.shields.io/npm/dm/localeval.svg?style=flat-square)
