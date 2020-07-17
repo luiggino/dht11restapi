@@ -1,5 +1,5 @@
 {
-  "name": "typescript-express-rest-api",
+  "name": "dht11restapi",
   "version": "2.0.10",
   "main": "./build/index.js",
   "keywords": [
@@ -13,13 +13,13 @@
     "builder",
     "generator"
   ],
-  "description": "This generator will help you to build your own Node.js Express Mongodb API using TypeScript.",
-  "author": "Checha Valerii <chechavalera@gmail.com>",
+  "description": "This is a rest Api for sensor dth11, where arduino send data and this project saves the information in mongodb, for after to view in\nmonitor of graphs in a react app.",
+  "author": "Luiggino Obreque Minio <luiggino.om@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ChechaValerii/node-typescript-mongodb/issues"
+    "url": "https://github.com/luiggino/dht11restapi/issues"
   },
-  "homepage": "https://github.com/ChechaValerii/node-typescript-mongodb#readme",
+  "homepage": "https://github.com/luiggino/dht11restapi#readme",
   "scripts": {
     "build": "tsc --skipLibCheck",
     "start": "tsc --skipLibCheck && node ./build/config/server/index.js",

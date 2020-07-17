@@ -7,7 +7,9 @@ const Server: http.Server = http.createServer(server);
 /**
  * Binds and listens for connections on the specified host
  */
-Server.listen(server.get('port'));
+Server.listen(server.get('port'), '0.0.0.0', () => {
+    console.log(`Server running at http://$0.0.0.0:${server.get('port')}/`);
+});
 
 /**
  * Server Events
